@@ -1,0 +1,36 @@
+# .github/workflows/update_schedule.yml
+name: Update School Schedule
+
+on:
+  schedule:
+    # Run every day at 6 AM (adjust to your timezone)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-schedule:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pdfplumber requests bs4 json io
+      
+      - name: Generate schedule JSON
+        run: |
+          python timetable_extractor.py > schedule.json
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'Schedule Bot'
+          git config --global user.email 'kakadoman0906@gmail.com'
+          git add schedule.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update schedule $(date +'%Y-%m-%d %H:%M')" && git push)
