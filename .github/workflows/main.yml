@@ -22,7 +22,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install pdfplumber requests bs4 json io
+          pip install pdfplumber requests
       
       - name: Generate schedule JSON
         run: |
