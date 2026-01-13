@@ -1,0 +1,222 @@
+{
+  "Ponedjeljak": {
+    "1": {
+      "teacher": "HG",
+      "room": "22",
+      "subject": "Fizika",
+      "double_period": true
+    },
+    "2": {
+      "teacher": "HG",
+      "room": "22",
+      "subject": "Fizika",
+      "double_period": true
+    },
+    "3": {
+      "teacher": "BR",
+      "room": "17",
+      "subject": "Hrvatski Jezik",
+      "double_period": false
+    },
+    "4": {
+      "teacher": "HK",
+      "room": "25",
+      "subject": "Likovna umjetnost",
+      "double_period": false
+    },
+    "5": {
+      "teacher": "MM",
+      "room": "7",
+      "subject": "Povijest",
+      "double_period": false
+    },
+    "6": {
+      "teacher": "KN",
+      "room": "19",
+      "subject": "Informatika",
+      "double_period": true
+    },
+    "7": {
+      "teacher": "KN",
+      "room": "19",
+      "subject": "Informatika",
+      "double_period": true
+    }
+  },
+  "Utorak": {
+    "1": {
+      "teacher": "ŠT",
+      "room": "2",
+      "subject": "Kemija",
+      "double_period": false
+    },
+    "2": {
+      "teacher": "HG",
+      "room": "22",
+      "subject": "Fizika",
+      "double_period": false
+    },
+    "3": {
+      "teacher": "CV",
+      "room": "9",
+      "subject": "Latinski",
+      "double_period": false
+    },
+    "4": {
+      "teacher": "MM",
+      "room": "10",
+      "subject": "Povijest",
+      "double_period": false
+    },
+    "5": {
+      "teacher": "ES",
+      "room": "2",
+      "subject": "Biologija",
+      "double_period": false
+    },
+    "6": {
+      "teacher": "MM",
+      "room": "10",
+      "subject": "Povijest",
+      "double_period": false
+    },
+    "7": {
+      "teacher": "SK",
+      "room": "13",
+      "subject": "Engleski Jezik",
+      "double_period": false
+    }
+  },
+  "Srijeda": {
+    "1": {
+      "teacher": "MM",
+      "room": "7",
+      "subject": "Povijest",
+      "double_period": false
+    },
+    "2": {
+      "teacher": "RK",
+      "room": "23",
+      "subject": "Tjelesna i zdravstvena kultura",
+      "double_period": false
+    },
+    "3": {
+      "teacher": "ŠT",
+      "room": "3",
+      "subject": "Kemija",
+      "double_period": false
+    },
+    "4": {
+      "teacher": "CV",
+      "room": "9",
+      "subject": "Latinski",
+      "double_period": false
+    },
+    "5": {
+      "teacher": "DL",
+      "room": "20",
+      "subject": "Matematika",
+      "double_period": true
+    },
+    "6": {
+      "teacher": "DL",
+      "room": "20",
+      "subject": "Matematika",
+      "double_period": true
+    },
+    "7": {
+      "teacher": "KN",
+      "room": "19",
+      "subject": "Informatika",
+      "double_period": false
+    }
+  },
+  "Četvrtak": {
+    "1": {
+      "teacher": "SK",
+      "room": "12",
+      "subject": "Engleski Jezik",
+      "double_period": true
+    },
+    "2": {
+      "teacher": "SK",
+      "room": "12",
+      "subject": "Engleski Jezik",
+      "double_period": true
+    },
+    "3": {
+      "teacher": "DL",
+      "room": "5",
+      "subject": "Matematika",
+      "double_period": true
+    },
+    "4": {
+      "teacher": "DL",
+      "room": "5",
+      "subject": "Matematika",
+      "double_period": true
+    },
+    "5": {
+      "teacher": "BR",
+      "room": "16",
+      "subject": "Hrvatski Jezik",
+      "double_period": false
+    },
+    "6": {
+      "teacher": "RK",
+      "room": "23",
+      "subject": "Tjelesna i zdravstvena kultura",
+      "double_period": false
+    },
+    "7": {
+      "teacher": "RO",
+      "room": "25",
+      "subject": "Glazbena umjetnost",
+      "double_period": false
+    }
+  },
+  "Petak": {
+    "1": {
+      "teacher": "BR",
+      "room": "17",
+      "subject": "Hrvatski Jezik",
+      "double_period": true
+    },
+    "2": {
+      "teacher": "BR",
+      "room": "17",
+      "subject": "Hrvatski Jezik",
+      "double_period": true
+    },
+    "3": {
+      "teacher": "SK",
+      "room": "13",
+      "subject": "Engleski Jezik",
+      "double_period": false
+    },
+    "4": {
+      "teacher": "DL",
+      "room": "13",
+      "subject": "Matematika",
+      "double_period": false
+    },
+    "5": {
+      "teacher": "NP",
+      "room": "1",
+      "subject": "Vjeronauk - Nista",
+      "double_period": false
+    },
+    "6": {
+      "teacher": "ES",
+      "room": "2",
+      "subject": "Biologija",
+      "double_period": false
+    },
+    "7": {
+      "teacher": "VI",
+      "room": "11",
+      "subject": "Etika",
+      "double_period": false
+    }
+  }
+}
