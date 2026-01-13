@@ -1,4 +1,4 @@
-import bs4
+import beautifulsoup4
 import requests
 
 def fetch_timetable(
@@ -8,7 +8,7 @@ def fetch_timetable(
     ) -> str:
     try:
         site_content = requests.get(site_URL).content
-        site_soup = bs4.BeautifulSoup(site_content, 'html.parser')
+        site_soup = beautifulsoup4.BeautifulSoup(site_content, 'html.parser')
 
         all_links = site_soup.find_all('a')
         found_links = []
