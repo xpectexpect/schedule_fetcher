@@ -17,7 +17,7 @@ SUBJECT_MAP = {
     'HK': 'Likovna umjetnost',
     'RK': 'Tjelesna i zdravstvena kultura',
     'RO': 'Glazbena umjetnost',
-    'NP': 'Vjeronauk - Nista',
+    'NP': 'Vjeronauk',
     'VI': 'Etika',
 }
 
@@ -256,4 +256,5 @@ def return_schedule_as_json():
     return json.dumps(schedule, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
+
     print(return_schedule_as_json())
