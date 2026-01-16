@@ -3,22 +3,23 @@ import json
 import timetable_fetcher
 import io
 import requests
+import datetime
 
 SUBJECT_MAP = {
-    'HG': 'Fizika',
-    'DL': 'Matematika',
-    'MM': 'Povijest',
-    'KN': 'Informatika',
-    'BR': 'Hrvatski Jezik',
-    'SK': 'Engleski Jezik',
-    'ŠT': 'Kemija',
-    'CV': 'Latinski',
-    'ES': 'Biologija',
-    'HK': 'Likovna umjetnost',
-    'RK': 'Tjelesna i zdravstvena kultura',
-    'RO': 'Glazbena umjetnost',
-    'NP': 'Vjeronauk',
-    'VI': 'Etika',
+    'HG': ('Goran Hajnal', 'Fizika'),
+    'DL': ('Darija Lozić', 'Matematika'),
+    'MM': ('Marina Međurečan', 'Povijest'),
+    'KN': ('Barbara Knežević', 'Informatika'),
+    'BR': ('Rikard Borić', 'Hrvatski Jezik'),
+    'SK': ('Snježana Krištofik Juranić', 'Engleski Jezik'),
+    'ŠT': ('Tomislava Špehar', 'Kemija'),
+    'CV': ('Anđelko Cvijetković', 'Latinski'),
+    'ES': ('Senka Erdeš', 'Biologija'),
+    'HK': ('Ivan Hajek', 'Likovna umjetnost'),
+    'RK': ('Kristijan Reljac', 'Tjelesna i zdravstvena kultura'),
+    'RO': ('Romana Borš Maček', 'Glazbena umjetnost'),
+    'NP': ('Nikolina Pavlović', 'Vjeronauk - Nista'),
+    'VI': ('Višnja Markotić', 'Etika'),
 }
 
 ROOM_NUMBERS = [x for x in range(1, 29)]
@@ -27,14 +28,9 @@ def extract_schedule(pdf_path):
     """
     Extract schedule with proper handling of merged cells(double periods).
     """
+
+    whole_schedule = {}
     
-    schedule = {
-        'Ponedjeljak': {},
-        'Utorak': {},
-        'Srijeda': {},
-        'Četvrtak': {},
-        'Petak': {}
-    }
     
     table_settings = {
         "vertical_strategy": "lines",
@@ -49,66 +45,57 @@ def extract_schedule(pdf_path):
         
         table = page.extract_table(table_settings)
 
-        
         if not table:
             table = page.extract_table()
         
         if not table:
             print("No table found")
             return None
-        
-        # Find 1.PMG row
-        pmg_row_idx = None
-        for i, row in enumerate(table):
-            if row and any(cell and '1.PMG' in str(cell) for cell in row):
-                pmg_row_idx = i
-                break
-        
-        if pmg_row_idx is None:
-            print("1.PMG row not found")
-            return None
-        
-        pmg_row = table[pmg_row_idx]
-        
-        # Parse row with merge detection
-        days = ['Ponedjeljak', 'Utorak', 'Srijeda', 'Četvrtak', 'Petak']
-        
-        cell_idx = 1  # Skip first cell (class name)
-        
-        for day in days:
-            period = 1
-            while period <= 7:
-                if cell_idx >= len(pmg_row):
-                    schedule[day][period] = None
-                    period += 1
-                    continue
-                
-                current_cell = pmg_row[cell_idx]
-                
-                # Check if next cell exists
-                next_cell = pmg_row[cell_idx + 1] if cell_idx + 1 < len(pmg_row) else None
-                
-                # Detect if this is a split merged cell
-                is_merged = is_split_cell(current_cell, next_cell)
-                
-                if is_merged and next_cell is not None:
-                    # Merge the two cells
-                    merged = merge_cells(current_cell, next_cell)
-                    schedule[day][period] = merged
-                    schedule[day][period + 1] = merged.copy()  # Same for next period
-                    cell_idx += 2
-                    period += 2
-                else:
-                    # Single cell
-                    parsed = parse_cell(current_cell)
-                    schedule[day][period] = parsed
-                    cell_idx += 1
-                    period += 1
+
+        for class_index, class_row in enumerate(table):
+            current_class_row = table[class_index]
+            class_name = current_class_row[0].strip() if current_class_row[0] else f"Class_{class_index+1}"
+            whole_schedule[class_name] = f"Created at: {datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
+
+            days = ['Ponedjeljak', 'Utorak', 'Srijeda', 'Četvrtak', 'Petak']
+            whole_schedule[class_name] = {day: {} for day in days}
+            
+            cell_idx = 1  # Skip first cell (class name)
+            
+            for day in list(days):
+                period = 1
+                while period <= 7:
+                    if cell_idx >= len(current_class_row):
+                        whole_schedule[class_name][day][period] = None
+                        period += 1
+                        continue
+                    
+                    current_cell = current_class_row[cell_idx]
+                    
+                    # Check if next cell exists
+                    next_cell = current_class_row[cell_idx + 1] if cell_idx + 1 < len(current_class_row) else None
+                    
+                    # Detect if this is a split merged cell
+                    is_merged = is_split_cell(current_cell, next_cell)
+                    
+                    if is_merged and next_cell is not None:
+                        # Merge the two cells
+                        merged = merge_cells(current_cell, next_cell)
+                        whole_schedule[class_name][day][period] = merged
+                        whole_schedule[class_name][day][period + 1] = merged.copy()  # Same for next period
+                        cell_idx += 2
+                        period += 2
+                    else:
+                        # Single cell
+                        parsed = parse_cell(current_cell)
+                        whole_schedule[class_name][day][period] = parsed
+                        cell_idx += 1
+                        period += 1
         
         # Validate and fix using subject map
-        schedule = validate_with_subject_map(schedule)
+        # """whole_schedule = validate_with_subject_map(whole_schedule)"""
         
-        return schedule
+        return whole_schedule
 
 def is_split_cell(cell1, cell2):
     """
@@ -169,23 +156,24 @@ def merge_cells(cell1, cell2):
     room2 = parts2[1].strip() if len(parts2) > 1 else ''
     
     # Combine teacher initials
-    teacher = teacher1 + teacher2
+    teacher_initials = teacher1 + teacher2
     
     # Use first room number (they should be the same)
     room = room1 + room2
     
     # Get subject name
-    subject = SUBJECT_MAP.get(teacher, 'Unknown')
+    teacher = SUBJECT_MAP.get(teacher_initials)[0] if teacher_initials in SUBJECT_MAP else 'Unknown'
+    subject = SUBJECT_MAP.get(teacher_initials, ['Unknown', 'Unknown'])[1]
     
     return {
-        "teacher": teacher,
-        "room": room,
-        "subject": subject,
+        "teacher_initials": teacher_initials if teacher_initials in SUBJECT_MAP else 'Unknown initials',
+        "teacher": teacher if teacher != 'Unknown' else 'Unknown teacher',
+        "room": room if room else 'Unknown room',
+        "subject": subject if subject != 'Unknown' else 'Unknown subject',
         "double_period": True
     }
 
 def parse_cell(cell_content):
-    """Parse a single (non-merged) cell."""
     if not cell_content or str(cell_content).strip() == '':
         return None
     
@@ -193,62 +181,31 @@ def parse_cell(cell_content):
     lines = content.split('\n')
     
     if len(lines) >= 2:
-        teacher = lines[0].strip()
+        teacher_initials = lines[0].strip()
         room = lines[1].strip()
+
+        teacher = ''
+        subject = ''
         
         # Handle cases like "MR / ZE" (alternative teachers)
-        if '/' in teacher:
+        if '/' in teacher_initials:
             # Keep as is for now
+            teacher = "Multiple"
             subject = "Multiple"
         else:
-            subject = SUBJECT_MAP.get(teacher, 'Unknown')
+            teacher = SUBJECT_MAP.get(teacher_initials)[0] if teacher_initials in SUBJECT_MAP else 'Unknown'
+            subject = SUBJECT_MAP.get(teacher_initials, ['Unknown', 'Unknown'])[1]
         
         return {
-            "teacher": teacher,
-            "room": room,
-            "subject": subject,
+            "teacher_initials": teacher_initials if teacher_initials in SUBJECT_MAP else 'Unknown initials',
+            "teacher": teacher if teacher != 'Unknown' else 'Unknown teacher',
+            "room": room if room else 'Unknown room',
+            "subject": subject if subject != 'Unknown' else 'Unknown subject',
             "double_period": False
         }
     
     return None
 
-def validate_with_subject_map(schedule):
-    """
-    Validate and fix teacher codes using the subject map.
-    Fix any remaining split cells that weren't caught.
-    """
-    days = ['Ponedjeljak', 'Utorak', 'Srijeda', 'Četvrtak', 'Petak']
-    
-    for day in days:
-        period = 1
-        while period <= 7:
-            current = schedule[day].get(period)
-            
-            if current and current.get('teacher'):
-                teacher = current['teacher']
-                
-                # If teacher code is not in map and is single char
-                if teacher not in SUBJECT_MAP and len(teacher) == 1:
-                    # Try to combine with next period
-                    if period < 7:
-                        next_period = schedule[day].get(period + 1)
-                        if next_period and next_period.get('teacher'):
-                            next_teacher = next_period['teacher']
-                            if len(next_teacher) == 1:
-                                combined = teacher + next_teacher
-                                if combined in SUBJECT_MAP:
-                                    # Fix both periods
-                                    merged = {
-                                        "teacher": combined,
-                                        "room": current['room'],
-                                        "subject": SUBJECT_MAP[combined],
-                                        "double_period": True
-                                    }
-                                    schedule[day][period] = merged
-                                    schedule[day][period + 1] = merged.copy()
-                                    period += 1  # Skip next period
-            period += 1
-    return schedule
 
 def return_schedule_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
@@ -256,5 +213,5 @@ def return_schedule_as_json():
     return json.dumps(schedule, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-
     print(return_schedule_as_json())
+    
