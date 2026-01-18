@@ -226,18 +226,18 @@ def return_info_as_json():
         day = match.group(1).zfill(2)
         month = match.group(2).zfill(2)
         year = match.group(3)
-        
-        # Create a standardized string '19-1-2026'
-        clean_date = f"{day}-{month}-{year}"
-        # Convert to the final format '2026-01-19'
-        link_date = datetime.datetime.strptime(clean_date, "%d-%m-%Y").strftime("%d.%m.%Y.")
+        link_date = f"{day}.{month}.{year}."
     else:
-        # Fallback if the school completely changes the name format
         link_date = datetime.datetime.now().strftime("%d.%m.%Y.")
+
+    # Extract shift from URL (A for morning, B for afternoon)
+    shift_match = re.search(r'GIM-EK-([AB])', timetable_pdf_link)
+    shift_val = "morning" if shift_match and shift_match.group(1) == "A" else "afternoon"
 
     info = {
         "timetable_link": timetable_pdf_link,
-        "link_date": link_date
+        "link_date": link_date,
+        "shift": shift
     }
 
     with open("info.json", "w") as file:
@@ -248,6 +248,7 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
 
