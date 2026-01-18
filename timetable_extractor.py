@@ -232,7 +232,7 @@ def return_info_as_json():
 
     # Extract shift from URL (A for morning, B for afternoon)
     shift_match = re.search(r'GIM-EK-([AB])', timetable_pdf_link)
-    shift_val = "morning" if shift_match and shift_match.group(1) == "A" else "afternoon"
+    shift = "morning" if shift_match and shift_match.group(1) == "A" else "afternoon"
 
     info = {
         "timetable_link": timetable_pdf_link,
@@ -248,6 +248,7 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
 
