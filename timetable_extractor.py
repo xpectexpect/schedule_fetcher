@@ -4,6 +4,7 @@ import timetable_fetcher
 import io
 import requests
 import datetime
+import re
 
 SUBJECT_MAP = {
     'HG': ('Goran Hajnal', 'Fizika'),
@@ -210,9 +211,24 @@ def parse_cell(cell_content):
 def return_schedule_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
     schedule = extract_schedule(pdf_path=io.BytesIO(requests.get(timetable_pdf_link).content))
-    return json.dumps(schedule, ensure_ascii=False, indent=2)
+
+    with open("schedule.json", "w") as file:
+        file.write(json.dumps(schedule, ensure_ascii=False, indent=2))
+
+def return_info_as_json():
+    timetable_pdf_link = timetable_fetcher.fetch_timetable()
+
+    date = re.search(r"GIM-EK-[AB]-(.*?)-FINAL", timetable_pdf_link).group(1).rstrip('.')
+    link_date = datetime.datetime.strptime(date, "%d-%m-%Y").strftime("%Y-%m-%d")
+
+    info = {
+        "timetable_link": timetable_pdf_link,
+        "link_date": link_date
+    }
+
+    with open("info.json", "w") as file:
+        file.write(json.dumps(info, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
-    print(return_schedule_as_json())
-    
-
+    return_schedule_as_json()
+    return_info_as_json()
