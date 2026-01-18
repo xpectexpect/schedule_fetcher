@@ -98,221 +98,125 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "5",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": null,
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
         "room": "23",
         "subject": "Unknown subject",
         "double_period": false
       },
+      "2": {
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "25",
+        "subject": "Likovna umjetnost",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
+        "room": "1",
+        "subject": "Vjeronauk",
+        "double_period": false
+      },
       "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "17",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
+      },
+      "6": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "17",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "17",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "20",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
         "teacher_initials": "CV",
         "teacher": "Anđelko Cvijetković",
         "room": "9",
         "subject": "Latinski",
         "double_period": false
       },
-      "5": {
+      "6": {
         "teacher_initials": "ES",
         "teacher": "Senka Erdeš",
         "room": "2",
         "subject": "Biologija",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
         "double_period": false
       },
       "7": null
     },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "7",
-        "subject": "Hrvatski Jezik",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "3",
-        "subject": "Biologija",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "4",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "ŠT",
-        "teacher": "Tomislava Špehar",
-        "room": "3",
-        "subject": "Kemija",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "10",
-        "subject": "Povijest",
-        "double_period": false
-      }
-    },
     "Srijeda": {
       "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "5",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "8 /",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "26",
-        "subject": "Multiple",
-        "double_period": false
-      }
-    },
-    "Četvrtak": {
-      "1": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "2": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "27",
-        "subject": "Likovna umjetnost",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "16",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      },
-      "7": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "16",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      }
-    },
-    "Petak": {
-      "1": {
-        "teacher_initials": "RO",
-        "teacher": "Romana Borš Maček",
-        "room": "25",
-        "subject": "Glazbena umjetnost",
-        "double_period": false
-      },
-      "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "11",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "3": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "7",
-        "subject": "Hrvatski Jezik",
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "/ 8",
+        "subject": "Multiple",
         "double_period": false
       },
-      "4": {
+      "3": {
         "teacher_initials": "ŠT",
         "teacher": "Tomislava Špehar",
         "room": "3",
         "subject": "Kemija",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "3",
+        "subject": "Biologija",
         "double_period": false
       },
       "5": {
@@ -323,68 +227,21 @@
         "double_period": false
       },
       "6": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
-        "room": "1",
-        "subject": "Vjeronauk",
-        "double_period": false
-      },
-      "7": null
-    }
-  },
-  "1.B OG": {
-    "Ponedjeljak": {
-      "1": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "4",
-        "subject": "Matematika",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "17",
-        "subject": "Hrvatski Jezik",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      },
-      "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
         "subject": "Unknown subject",
         "double_period": false
       },
       "7": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "9",
+        "subject": "Unknown subject",
         "double_period": false
       }
     },
-    "Utorak": {
+    "Četvrtak": {
       "1": {
         "teacher_initials": "CV",
         "teacher": "Anđelko Cvijetković",
@@ -393,44 +250,187 @@
         "double_period": false
       },
       "2": {
-        "teacher_initials": "ŠT",
-        "teacher": "Tomislava Špehar",
-        "room": "2",
-        "subject": "Kemija",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "16",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      },
-      "4": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "16",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      },
-      "5": {
         "teacher_initials": "MM",
         "teacher": "Marina Međurečan",
         "room": "10",
         "subject": "Povijest",
         "double_period": false
       },
+      "3": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "14",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "4",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
       "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Petak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": null,
+      "3": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "4": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "13",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "RO",
+        "teacher": "Romana Borš Maček",
+        "room": "25",
+        "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "ŠT",
+        "teacher": "Tomislava Špehar",
+        "room": "3",
+        "subject": "Kemija",
+        "double_period": false
+      }
+    }
+  },
+  "1.B OG": {
+    "Ponedjeljak": {
+      "1": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "4",
+        "subject": "Matematika",
+        "double_period": false
+      },
+      "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       },
+      "4": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "17",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "25",
+        "subject": "Likovna umjetnost",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
+        "double_period": false
+      },
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "14",
+        "room": "17",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "13",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "ŠT",
+        "teacher": "Tomislava Špehar",
+        "room": "2",
+        "subject": "Kemija",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "5": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       }
@@ -444,134 +444,134 @@
         "double_period": false
       },
       "2": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
-        "double_period": false
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "4",
+        "subject": "Matematika",
+        "double_period": true
       },
       "3": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "4",
+        "subject": "Matematika",
+        "double_period": true
+      },
+      "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "4": {
+      "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "9",
+        "room": "8",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "5": {
+      "6": {
         "teacher_initials": "NP",
         "teacher": "Nikolina Pavlović",
         "room": "1",
         "subject": "Vjeronauk",
         "double_period": false
       },
-      "6": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "17",
-        "subject": "Hrvatski Jezik",
-        "double_period": false
-      },
       "7": null
     },
     "Četvrtak": {
       "1": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
-        "double_period": false
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "14",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
       },
       "2": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "14",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
+      },
+      "3": {
         "teacher_initials": "DL",
         "teacher": "Darija Lozić",
-        "room": "5",
+        "room": "4",
         "subject": "Matematika",
         "double_period": false
       },
-      "3": {
+      "4": {
         "teacher_initials": "ŠT",
         "teacher": "Tomislava Špehar",
         "room": "3",
         "subject": "Kemija",
         "double_period": false
       },
-      "4": {
+      "5": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
+        "double_period": false
+      },
+      "7": {
         "teacher_initials": "RO",
         "teacher": "Romana Borš Maček",
         "room": "25",
         "subject": "Glazbena umjetnost",
         "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "14",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "7": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
       }
     },
     "Petak": {
       "1": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "6",
-        "subject": "Matematika",
-        "double_period": true
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "16",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
       },
       "2": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "6",
-        "subject": "Matematika",
-        "double_period": true
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "19 /",
-        "subject": "Multiple",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "14",
-        "subject": "Unknown subject",
+        "teacher": "Multiple",
+        "room": "14 /",
+        "subject": "Multiple",
         "double_period": false
       },
       "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "15",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
         "teacher_initials": "RK",
         "teacher": "Kristijan Reljac",
         "room": "23",
         "subject": "Tjelesna i zdravstvena kultura",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "27",
-        "subject": "Likovna umjetnost",
         "double_period": false
       },
       "7": {
@@ -586,249 +586,249 @@
   "1.PMG": {
     "Ponedjeljak": {
       "1": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "2": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "3": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "17",
-        "subject": "Hrvatski Jezik",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "25",
-        "subject": "Likovna umjetnost",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "19",
-        "subject": "Informatika",
-        "double_period": true
-      },
-      "7": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "19",
-        "subject": "Informatika",
-        "double_period": true
-      }
-    },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "ŠT",
-        "teacher": "Tomislava Špehar",
-        "room": "2",
-        "subject": "Kemija",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "10",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "10",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "13",
-        "subject": "Engleski Jezik",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "RK",
-        "teacher": "Kristijan Reljac",
-        "room": "23",
-        "subject": "Tjelesna i zdravstvena kultura",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "ŠT",
-        "teacher": "Tomislava Špehar",
-        "room": "3",
-        "subject": "Kemija",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "20",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "6": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "20",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "7": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "19",
-        "subject": "Informatika",
-        "double_period": false
-      }
-    },
-    "Četvrtak": {
-      "1": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "12",
-        "subject": "Engleski Jezik",
-        "double_period": true
-      },
-      "2": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "12",
-        "subject": "Engleski Jezik",
-        "double_period": true
-      },
-      "3": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "5",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "4": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "5",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "5": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "16",
-        "subject": "Hrvatski Jezik",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "RK",
-        "teacher": "Kristijan Reljac",
-        "room": "23",
-        "subject": "Tjelesna i zdravstvena kultura",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "RO",
-        "teacher": "Romana Borš Maček",
-        "room": "25",
-        "subject": "Glazbena umjetnost",
-        "double_period": false
-      }
-    },
-    "Petak": {
-      "1": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "17",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      },
-      "2": {
-        "teacher_initials": "BR",
-        "teacher": "Rikard Borić",
-        "room": "17",
-        "subject": "Hrvatski Jezik",
-        "double_period": true
-      },
-      "3": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "13",
-        "subject": "Engleski Jezik",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "13",
-        "subject": "Matematika",
-        "double_period": false
-      },
-      "5": {
         "teacher_initials": "NP",
         "teacher": "Nikolina Pavlović",
         "room": "1",
         "subject": "Vjeronauk",
         "double_period": false
       },
-      "6": {
+      "2": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "20",
+        "subject": "Matematika",
+        "double_period": true
+      },
+      "4": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "20",
+        "subject": "Matematika",
+        "double_period": true
+      },
+      "5": {
         "teacher_initials": "ES",
         "teacher": "Senka Erdeš",
         "room": "2",
         "subject": "Biologija",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "14",
+        "subject": "Engleski Jezik",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "14",
+        "subject": "Engleski Jezik",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "ŠT",
+        "teacher": "Tomislava Špehar",
+        "room": "3",
+        "subject": "Kemija",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "7",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
+        "double_period": false
+      }
+    },
+    "Srijeda": {
+      "1": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "16",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "16",
+        "subject": "Hrvatski Jezik",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "13",
+        "subject": "Engleski Jezik",
+        "double_period": true
+      },
+      "4": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "13",
+        "subject": "Engleski Jezik",
+        "double_period": true
+      },
+      "5": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "9",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "21",
+        "subject": "Matematika",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "21",
+        "subject": "Matematika",
+        "double_period": true
+      }
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "RK",
+        "teacher": "Kristijan Reljac",
+        "room": "23",
+        "subject": "Tjelesna i zdravstvena kultura",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "4",
+        "subject": "Matematika",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "6",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "RO",
+        "teacher": "Romana Borš Maček",
+        "room": "25",
+        "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "27",
+        "subject": "Likovna umjetnost",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
+        "double_period": false
+      }
+    },
+    "Petak": {
+      "1": {
+        "teacher_initials": "RK",
+        "teacher": "Kristijan Reljac",
+        "room": "23",
+        "subject": "Tjelesna i zdravstvena kultura",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "16",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
+      },
+      "3": {
+        "teacher_initials": "BR",
+        "teacher": "Rikard Borić",
+        "room": "16",
+        "subject": "Hrvatski Jezik",
+        "double_period": true
+      },
+      "4": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "5": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "6": {
+        "teacher_initials": "ŠT",
+        "teacher": "Tomislava Špehar",
+        "room": "3",
+        "subject": "Kemija",
         "double_period": false
       },
       "7": {
@@ -845,11 +845,158 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "4",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
         "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "2": null,
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "3",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "0",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Srijeda": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "3",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "3",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "18",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
@@ -860,157 +1007,22 @@
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "4",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": null,
-      "7": null
-    },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "3",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "5",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "13",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": null,
-      "6": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
-        "room": "1",
-        "subject": "Vjeronauk",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "11",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
         "room": "23",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
       "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "12",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Četvrtak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "18",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "3",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
         "teacher_initials": "VI",
         "teacher": "Višnja Markotić",
-        "room": "10",
+        "room": "11",
         "subject": "Etika",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "14",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "7": null
@@ -1019,42 +1031,42 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "2",
+        "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "10",
+        "room": "4",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
         "teacher_initials": "VI",
         "teacher": "Višnja Markotić",
-        "room": "11",
+        "room": "10",
         "subject": "Etika",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "10",
+        "room": "3",
         "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
         "room": "1",
-        "subject": "Unknown subject",
+        "subject": "Vjeronauk",
         "double_period": false
       },
       "6": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "2",
+        "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -1072,109 +1084,7 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "17",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "4",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
         "room": "1",
-        "subject": "Vjeronauk",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "16",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "8 /",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "25",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "M",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "L",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "12",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -1188,15 +1098,66 @@
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "13",
+        "room": "10",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "22",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
         "room": "2",
-        "subject": "Biologija",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "0",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "12",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "6 / 2",
+        "subject": "Multiple",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "3 / 11",
+        "subject": "Multiple",
         "double_period": false
       },
       "5": {
@@ -1216,52 +1177,103 @@
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "7",
+        "room": "3",
         "subject": "Unknown subject",
         "double_period": false
       }
     },
-    "Četvrtak": {
+    "Srijeda": {
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "20",
+        "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
+        "room": "1",
+        "subject": "Vjeronauk",
         "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "10",
+        "room": "21",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "3",
+        "room": "12",
         "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "17",
+        "room": "16",
         "subject": "Unknown subject",
         "double_period": false
       },
       "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "18",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      }
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "3",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "RO",
+        "teacher": "Romana Borš Maček",
+        "room": "25",
+        "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
         "teacher_initials": "HK",
         "teacher": "Ivan Hajek",
         "room": "27",
         "subject": "Likovna umjetnost",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "21",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "7": {
@@ -1275,37 +1287,37 @@
     "Petak": {
       "1": {
         "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
+        "teacher": "Multiple",
+        "room": "11 /",
+        "subject": "Multiple",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "2",
+        "room": "15",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "20",
+        "room": "5",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "20",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
-        "teacher_initials": "RO",
-        "teacher": "Romana Borš Maček",
-        "room": "25",
-        "subject": "Glazbena umjetnost",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "20",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "6": {
@@ -1336,7 +1348,7 @@
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "6",
+        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -1347,13 +1359,7 @@
         "subject": "Unknown subject",
         "double_period": false
       },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "3",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
+      "4": null,
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
@@ -1384,45 +1390,6 @@
         "subject": "Unknown subject",
         "double_period": false
       },
-      "2": null,
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "M",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "L",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": null,
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
@@ -1432,29 +1399,29 @@
       },
       "3": {
         "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
+        "teacher": "Multiple",
+        "room": "6 / 2",
+        "subject": "Multiple",
         "double_period": false
       },
       "4": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
-        "room": "1",
-        "subject": "Vjeronauk",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "3 / 11",
+        "subject": "Multiple",
         "double_period": false
       },
       "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "6",
-        "subject": "Unknown subject",
+        "teacher_initials": "RO",
+        "teacher": "Romana Borš Maček",
+        "room": "25",
+        "subject": "Glazbena umjetnost",
         "double_period": false
       },
       "6": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "3",
+        "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -1466,33 +1433,33 @@
         "double_period": false
       }
     },
-    "Četvrtak": {
+    "Srijeda": {
       "1": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "6",
-        "subject": "Likovna umjetnost",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
-        "teacher_initials": "RO",
-        "teacher": "Romana Borš Maček",
-        "room": "25",
-        "subject": "Glazbena umjetnost",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "6 /",
+        "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "14",
-        "subject": "Multiple",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
@@ -1505,8 +1472,53 @@
       "6": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
+        "room": "6 /",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "13",
+        "subject": "Multiple",
+        "double_period": false
+      }
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
         "room": "6",
         "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "6",
+        "subject": "Likovna umjetnost",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": null,
+      "6": {
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
+        "room": "1",
+        "subject": "Vjeronauk",
         "double_period": false
       },
       "7": {
@@ -1521,31 +1533,25 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "2",
+        "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "1",
+        "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
-        "double_period": false
-      },
-      "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "6",
         "subject": "Unknown subject",
         "double_period": false
       },
+      "4": null,
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
@@ -1560,7 +1566,13 @@
         "subject": "Unknown subject",
         "double_period": false
       },
-      "7": null
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
     }
   },
   "Class_9": {
@@ -1628,161 +1640,8 @@
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "13",
-        "subject": "Engleski Jezik",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
-        "room": "1",
-        "subject": "Vjeronauk",
-        "double_period": false
-      }
-    },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "13",
-        "subject": "Engleski Jezik",
-        "double_period": true
-      },
-      "2": {
-        "teacher_initials": "SK",
-        "teacher": "Snježana Krištofik Juranić",
-        "room": "13",
-        "subject": "Engleski Jezik",
-        "double_period": true
-      },
-      "3": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": true
-      },
-      "4": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": true
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "21",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
         "room": "6",
         "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "3",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "RK",
-        "teacher": "Kristijan Reljac",
-        "room": "23",
-        "subject": "Tjelesna i zdravstvena kultura",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "22",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Četvrtak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "27",
-        "subject": "Likovna umjetnost",
         "double_period": false
       },
       "3": {
@@ -1795,14 +1654,167 @@
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
+        "room": "27",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "12",
+        "subject": "Engleski Jezik",
+        "double_period": true
+      },
+      "6": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "12",
+        "subject": "Engleski Jezik",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "21",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "21",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "3": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "16",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
+        "room": "1",
+        "subject": "Vjeronauk",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
         "room": "10",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "SK",
+        "teacher": "Snježana Krištofik Juranić",
+        "room": "14",
+        "subject": "Engleski Jezik",
+        "double_period": false
+      }
+    },
+    "Srijeda": {
+      "1": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "12",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "RK",
+        "teacher": "Kristijan Reljac",
+        "room": "23",
+        "subject": "Tjelesna i zdravstvena kultura",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "7",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "17",
         "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "5",
+        "room": "17",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -1819,43 +1831,43 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "16",
+        "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "16",
+        "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
         "teacher_initials": "RK",
         "teacher": "Kristijan Reljac",
         "room": "23",
         "subject": "Tjelesna i zdravstvena kultura",
         "double_period": false
       },
-      "5": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
         "double_period": false
       },
-      "6": {
+      "5": {
         "teacher_initials": "RO",
         "teacher": "Romana Borš Maček",
         "room": "25",
         "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "27",
+        "subject": "Likovna umjetnost",
         "double_period": false
       },
       "7": {
@@ -1870,55 +1882,55 @@
   "2.B PMG": {
     "Ponedjeljak": {
       "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "16",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "5",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": null,
-      "5": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": false
-      },
-      "6": {
         "teacher_initials": "HK",
         "teacher": "Ivan Hajek",
         "room": "25",
         "subject": "Likovna umjetnost",
         "double_period": false
       },
-      "7": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      }
-    },
-    "Utorak": {
-      "1": {
+      "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "16",
         "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "ES",
+        "teacher": "Senka Erdeš",
+        "room": "2",
+        "subject": "Biologija",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
         "double_period": false
       },
       "2": {
@@ -1931,36 +1943,36 @@
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "12",
+        "room": "10",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "5",
+        "room": "9",
         "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "1",
+        "room": "5",
         "subject": "Unknown subject",
         "double_period": false
       },
       "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "4",
-        "subject": "Unknown subject",
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
         "double_period": false
       },
       "7": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "20",
+        "subject": "Informatika",
         "double_period": false
       }
     },
@@ -1968,94 +1980,88 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "11",
+        "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "1",
+        "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "1",
+        "room": "14",
         "subject": "Unknown subject",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "6",
+        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       },
       "5": {
-        "teacher_initials": "ES",
-        "teacher": "Senka Erdeš",
-        "room": "2",
-        "subject": "Biologija",
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "13",
+        "subject": "Unknown subject",
         "double_period": false
       },
       "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": false
+      },
+      "2": {
         "teacher_initials": "CV",
         "teacher": "Anđelko Cvijetković",
         "room": "9",
         "subject": "Latinski",
         "double_period": false
       },
-      "7": {
+      "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "9",
+        "room": "1",
         "subject": "Unknown subject",
         "double_period": false
-      }
-    },
-    "Četvrtak": {
-      "1": {
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "0",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "23",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "2": {
+      "6": {
         "teacher_initials": "ES",
         "teacher": "Senka Erdeš",
         "room": "2",
         "subject": "Biologija",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "11",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "5": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "3",
-        "subject": "Unknown subject",
         "double_period": false
       },
       "7": {
@@ -2068,46 +2074,52 @@
     },
     "Petak": {
       "1": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "2": {
+        "teacher_initials": "KN",
+        "teacher": "Barbara Knežević",
+        "room": "19",
+        "subject": "Informatika",
+        "double_period": true
+      },
+      "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "5",
+        "room": "17",
         "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": null,
-      "3": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "21",
-        "subject": "Fizika",
         "double_period": false
       },
       "4": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": true
-      },
-      "5": {
-        "teacher_initials": "KN",
-        "teacher": "Barbara Knežević",
-        "room": "20",
-        "subject": "Informatika",
-        "double_period": true
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "10",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
         "teacher_initials": "RO",
         "teacher": "Romana Borš Maček",
         "room": "25",
         "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "6": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "12",
+        "subject": "Unknown subject",
         "double_period": false
       }
     }
@@ -2170,21 +2182,201 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "9",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "NP",
+        "teacher": "Nikolina Pavlović",
+        "room": "1",
+        "subject": "Vjeronauk",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "20",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Utorak": {
+      "1": {
+        "teacher_initials": "VI",
+        "teacher": "Višnja Markotić",
+        "room": "11",
+        "subject": "Etika",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": null,
+      "4": {
+        "teacher_initials": "VI",
+        "teacher": "Višnja Markotić",
+        "room": "2",
+        "subject": "Etika",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "17",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "3",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
+    },
+    "Srijeda": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "4",
+        "room": "0",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "9",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": null,
+      "7": null
+    },
+    "Četvrtak": {
+      "1": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "10",
+        "subject": "Povijest",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       },
       "3": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "20",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "6",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "7",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": null
+    },
+    "Petak": {
+      "1": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "2": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "2",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -2205,197 +2397,17 @@
       "6": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "3",
+        "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "17",
+        "room": "5",
         "subject": "Unknown subject",
         "double_period": false
       }
-    },
-    "Utorak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "4",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "17",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "NP",
-        "teacher": "Nikolina Pavlović",
-        "room": "1",
-        "subject": "Vjeronauk",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "VI",
-        "teacher": "Višnja Markotić",
-        "room": "2",
-        "subject": "Etika",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "23",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": null
-    },
-    "Četvrtak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "VI",
-        "teacher": "Višnja Markotić",
-        "room": "4",
-        "subject": "Etika",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "6": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "2",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "8",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Petak": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "2": null,
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "7",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "9",
-        "subject": "Povijest",
-        "double_period": false
-      },
-      "6": null,
-      "7": null
     }
   },
   "Class_14": {
@@ -2423,8 +2435,20 @@
       "3": null,
       "4": null,
       "5": null,
-      "6": null,
-      "7": null
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "1",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "7": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "5",
+        "subject": "Unknown subject",
+        "double_period": false
+      }
     },
     "Četvrtak": {
       "1": null,
@@ -2447,36 +2471,24 @@
       "3": null,
       "4": null,
       "5": null,
-      "6": {
+      "6": null,
+      "7": null
+    }
+  },
+  "3.A OG": {
+    "Ponedjeljak": {
+      "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
         "room": "1",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "7": {
+      "2": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "9",
+        "room": "3",
         "subject": "Unknown subject",
-        "double_period": false
-      }
-    }
-  },
-  "3.A OG": {
-    "Ponedjeljak": {
-      "1": {
-        "teacher_initials": "VI",
-        "teacher": "Višnja Markotić",
-        "room": "10",
-        "subject": "Etika",
-        "double_period": false
-      },
-      "2": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
         "double_period": false
       },
       "3": {
@@ -2487,16 +2499,16 @@
         "double_period": false
       },
       "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "1",
-        "subject": "Unknown subject",
+        "teacher_initials": "VI",
+        "teacher": "Višnja Markotić",
+        "room": "11",
+        "subject": "Etika",
         "double_period": false
       },
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "7",
+        "room": "23",
         "subject": "Unknown subject",
         "double_period": false
       },
@@ -2510,7 +2522,7 @@
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "10",
+        "room": "16",
         "subject": "Unknown subject",
         "double_period": false
       }
@@ -2519,94 +2531,94 @@
       "1": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "23",
+        "room": "27",
         "subject": "Unknown subject",
         "double_period": false
       },
       "2": {
+        "teacher_initials": "ŠT",
+        "teacher": "Tomislava Špehar",
+        "room": "2",
+        "subject": "Kemija",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "4",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "RO",
+        "teacher": "Romana Borš Maček",
+        "room": "25",
+        "subject": "Glazbena umjetnost",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "23",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "5",
+        "subject": "Matematika",
+        "double_period": true
+      },
+      "7": {
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "5",
+        "subject": "Matematika",
+        "double_period": true
+      }
+    },
+    "Srijeda": {
+      "1": {
         "teacher_initials": "MM",
         "teacher": "Marina Međurečan",
         "room": "7",
         "subject": "Povijest",
         "double_period": false
       },
-      "3": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "21",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "4": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "21",
-        "subject": "Matematika",
-        "double_period": true
-      },
-      "5": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "6": {
-        "teacher_initials": "HG",
-        "teacher": "Goran Hajnal",
-        "room": "22",
-        "subject": "Fizika",
-        "double_period": true
-      },
-      "7": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "26",
-        "subject": "Unknown subject",
-        "double_period": false
-      }
-    },
-    "Srijeda": {
-      "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "9",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
       "2": {
-        "teacher_initials": "CV",
-        "teacher": "Anđelko Cvijetković",
-        "room": "9",
-        "subject": "Latinski",
-        "double_period": false
-      },
-      "3": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "17",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "4": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "8 /",
-        "subject": "Unknown subject",
-        "double_period": false
-      },
-      "5": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Multiple",
-        "room": "13",
-        "subject": "Multiple",
-        "double_period": false
-      },
-      "6": {
         "teacher_initials": "ES",
         "teacher": "Senka Erdeš",
         "room": "2",
         "subject": "Biologija",
+        "double_period": false
+      },
+      "3": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "27",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "4": {
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "10",
+        "subject": "Latinski",
+        "double_period": false
+      },
+      "5": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Unknown teacher",
+        "room": "12 /",
+        "subject": "Unknown subject",
+        "double_period": false
+      },
+      "6": {
+        "teacher_initials": "Unknown initials",
+        "teacher": "Multiple",
+        "room": "27",
+        "subject": "Multiple",
         "double_period": false
       },
       "7": {
@@ -2619,51 +2631,51 @@
     },
     "Četvrtak": {
       "1": {
-        "teacher_initials": "Unknown initials",
-        "teacher": "Unknown teacher",
-        "room": "27",
-        "subject": "Unknown subject",
+        "teacher_initials": "DL",
+        "teacher": "Darija Lozić",
+        "room": "4",
+        "subject": "Matematika",
         "double_period": false
       },
       "2": {
-        "teacher_initials": "ŠT",
-        "teacher": "Tomislava Špehar",
-        "room": "3",
-        "subject": "Kemija",
-        "double_period": false
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
       },
       "3": {
+        "teacher_initials": "HG",
+        "teacher": "Goran Hajnal",
+        "room": "22",
+        "subject": "Fizika",
+        "double_period": true
+      },
+      "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "23",
+        "room": "12",
         "subject": "Unknown subject",
         "double_period": false
       },
-      "4": {
-        "teacher_initials": "HK",
-        "teacher": "Ivan Hajek",
-        "room": "27",
-        "subject": "Likovna umjetnost",
-        "double_period": false
-      },
       "5": {
-        "teacher_initials": "RO",
-        "teacher": "Romana Borš Maček",
-        "room": "25",
-        "subject": "Glazbena umjetnost",
-        "double_period": false
-      },
-      "6": {
         "teacher_initials": "NP",
         "teacher": "Nikolina Pavlović",
         "room": "1",
         "subject": "Vjeronauk",
         "double_period": false
       },
+      "6": {
+        "teacher_initials": "MM",
+        "teacher": "Marina Međurečan",
+        "room": "10",
+        "subject": "Povijest",
+        "double_period": false
+      },
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "14",
+        "room": "7",
         "subject": "Unknown subject",
         "double_period": false
       }
@@ -2684,38 +2696,38 @@
         "double_period": false
       },
       "3": {
-        "teacher_initials": "DL",
-        "teacher": "Darija Lozić",
-        "room": "1",
-        "subject": "Matematika",
+        "teacher_initials": "CV",
+        "teacher": "Anđelko Cvijetković",
+        "room": "9",
+        "subject": "Latinski",
         "double_period": false
       },
       "4": {
         "teacher_initials": "Unknown initials",
         "teacher": "Multiple",
-        "room": "29 / 2",
+        "room": "27 / 5",
         "subject": "Multiple",
         "double_period": false
       },
       "5": {
         "teacher_initials": "Unknown initials",
         "teacher": "Multiple",
-        "room": "2 / 11",
+        "room": "/ 10",
         "subject": "Multiple",
         "double_period": false
       },
       "6": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "22",
+        "room": "5",
         "subject": "Unknown subject",
         "double_period": false
       },
       "7": {
-        "teacher_initials": "MM",
-        "teacher": "Marina Međurečan",
-        "room": "7",
-        "subject": "Povijest",
+        "teacher_initials": "HK",
+        "teacher": "Ivan Hajek",
+        "room": "27",
+        "subject": "Likovna umjetnost",
         "double_period": false
       }
     }
@@ -2802,7 +2814,7 @@
       "7": {
         "teacher_initials": "Unknown initials",
         "teacher": "Unknown teacher",
-        "room": "13",
+        "room": "8",
         "subject": "Unknown subject",
         "double_period": false
       }
