@@ -220,21 +220,35 @@ def return_schedule_as_json():
 
 def return_info_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
-    date = timetable_pdf_link.split("/")[-1].split("-")[3]
-    link_date = datetime.datetime.strptime(date, "%d.%m.%Y.").strftime("%Y-%m-%d")
-    info_path = os.path.join(base_path, "info.json")
+    match = re.search(r'(\d{1,2})\.(\d{1,2})\.?\-?(\d{4})', timetable_pdf_link)
+    
+    if match:
+        day = match.group(1).zfill(2)
+        month = match.group(2).zfill(2)
+        year = match.group(3)
+        
+        # Create a standardized string '19-1-2026'
+        clean_date = f"{day}-{month}-{year}"
+        # Convert to the final format '2026-01-19'
+        link_date = datetime.datetime.strptime(clean_date, "%d-%m-%Y").strftime("%d.%m.%Y.")
+    else:
+        # Fallback if the school completely changes the name format
+        link_date = datetime.datetime.now().strftime("%d.%m.%Y.")
 
     info = {
         "timetable_link": timetable_pdf_link,
         "link_date": link_date
     }
 
-    with open(info_path, "w") as file:
+    with open("info.json", "w") as file:
         json.dump(info, file, ensure_ascii=False, indent=2)
+
+
 
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
 
