@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Generate schedule JSON
+      - name: Generate project files
         run: |
           python timetable_extractor.py
       
@@ -33,5 +33,5 @@ jobs:
         run: |
           git config --global user.name 'Schedule Bot'
           git config --global user.email 'kakadoman0906@gmail.com'
-          git add schedule.json
+          git add schedule.json info.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update schedule $(date +'%Y-%m-%d %H:%M')" && git push)
