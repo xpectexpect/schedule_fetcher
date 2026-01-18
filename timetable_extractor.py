@@ -56,7 +56,6 @@ def extract_schedule(pdf_path):
         for class_index, class_row in enumerate(table):
             current_class_row = table[class_index]
             class_name = current_class_row[0].strip() if current_class_row[0] else f"Class_{class_index+1}"
-            whole_schedule[class_name] = f"Created at: {datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 
             days = ['Ponedjeljak', 'Utorak', 'Srijeda', 'Četvrtak', 'Petak']
             whole_schedule[class_name] = {day: {} for day in days}
@@ -232,4 +231,5 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
