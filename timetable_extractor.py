@@ -237,7 +237,8 @@ def return_info_as_json():
     info = {
         "timetable_link": timetable_pdf_link,
         "link_date": link_date,
-        "shift": shift
+        "shift": shift,
+        "class_teacher": SUBJECT_MAP.get("SK", ["Unknown", "Unknown"])[0]
     }
 
     with open("info.json", "w") as file:
@@ -248,6 +249,7 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
 
