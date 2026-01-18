@@ -47,3 +47,10 @@ jobs:
           else
             echo "No changes detected in JSON files. Skipping commit."
           fi
+          
+      - name: Debug - View generated files
+        run: |
+          echo "--- Contents of schedule.json ---"
+          cat schedule.json || echo "schedule.json not found"
+          echo "--- Contents of info.json ---"
+          cat info.json || echo "info.json not found"
