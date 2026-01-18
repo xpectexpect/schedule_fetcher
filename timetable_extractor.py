@@ -218,7 +218,7 @@ def return_info_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
 
     date = timetable_pdf_link.split("/")[-1].split("-")[3]
-    link_date = datetime.datetime.strptime(date, "%d-%m-%Y").strftime("%Y-%m-%d")
+    link_date = datetime.datetime.strptime(date, "%d.%m.%Y.").strftime("%Y-%m-%d")
 
     info = {
         "timetable_link": timetable_pdf_link,
@@ -231,5 +231,6 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
