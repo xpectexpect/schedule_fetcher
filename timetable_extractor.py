@@ -218,7 +218,7 @@ def return_schedule_as_json():
 def return_info_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
 
-    date = re.search(r"GIM-EK-[AB]-(.*?)-FINAL", timetable_pdf_link).group(1).rstrip('.')
+    date = timetable_pdf_link.split("/")[-1].split("-")[3]
     link_date = datetime.datetime.strptime(date, "%d-%m-%Y").strftime("%Y-%m-%d")
 
     info = {
@@ -232,3 +232,4 @@ def return_info_as_json():
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
