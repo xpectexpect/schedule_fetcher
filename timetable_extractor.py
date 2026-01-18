@@ -5,6 +5,9 @@ import io
 import requests
 import datetime
 import re
+import os
+
+base_path = os.path.dirname(os.path.abspath(__file__))
 
 SUBJECT_MAP = {
     'HG': ('Goran Hajnal', 'Fizika'),
@@ -210,27 +213,29 @@ def parse_cell(cell_content):
 def return_schedule_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
     schedule = extract_schedule(pdf_path=io.BytesIO(requests.get(timetable_pdf_link).content))
+    schedule_path = os.path.join(base_path, "schedule.json")
 
-    with open("schedule.json", "w") as file:
-        file.write(json.dumps(schedule, ensure_ascii=False, indent=2))
+    with open(schedule_path, "w") as file:
+        json.dump(schedule, file, ensure_ascii=False, indent=2)
 
 def return_info_as_json():
     timetable_pdf_link = timetable_fetcher.fetch_timetable()
-
     date = timetable_pdf_link.split("/")[-1].split("-")[3]
     link_date = datetime.datetime.strptime(date, "%d.%m.%Y.").strftime("%Y-%m-%d")
+    info_path = os.path.join(base_path, "info.json")
 
     info = {
         "timetable_link": timetable_pdf_link,
         "link_date": link_date
     }
 
-    with open("info.json", "w") as file:
-        file.write(json.dumps(info, ensure_ascii=False, indent=2))
+    with open(info_path, "w") as file:
+        json.dump(info, file, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     return_schedule_as_json()
     return_info_as_json()
+
 
 
 
