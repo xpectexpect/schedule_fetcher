@@ -27,7 +27,7 @@ jobs:
       
       - name: Generate schedule JSON
         run: |
-          python timetable_extractor.py > schedule.json
+          python timetable_extractor.py
       
       - name: Commit and push if changed
         run: |
