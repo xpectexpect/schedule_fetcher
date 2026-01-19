@@ -239,7 +239,7 @@ def return_info_as_json(pdf_link):
     return info
 
 def save_whole_schedule_data(pdf_link, save_path):
-    data_directory = os.path.join(save_path, extract_date_from_link(pdf_link))
+    data_directory = pathlib.Path(os.path.join(save_path, extract_date_from_link(pdf_link)))
     data_directory.mkdir(parents=True, exist_ok=True)
 
     pdf_data_directory_path = os.path.join(data_directory, "schedule.pdf")
@@ -260,8 +260,10 @@ if __name__ == "__main__":
     pdf_link = timetable_fetcher.fetch_timetable()
 
     base_path = os.path.dirname(os.path.abspath(__file__))
-    saved_schedules_path = os.path.join(base_path, "saved_schedules")
+    saved_schedules_path = pathlib.path(os.path.join(base_path, "saved_schedules"))
+    saved_schedules_path.mkdir(parents=True, exist_ok=True)
 
     save_whole_schedule_data(pdf_link, saved_schedules_path)
+
 
 
