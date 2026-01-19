@@ -6,6 +6,7 @@ import requests
 import datetime
 import re
 import os
+import pathlib
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 
@@ -264,6 +265,7 @@ if __name__ == "__main__":
     saved_schedules_path.mkdir(parents=True, exist_ok=True)
 
     save_whole_schedule_data(pdf_link, saved_schedules_path)
+
 
 
 
