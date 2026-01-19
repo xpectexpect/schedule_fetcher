@@ -34,23 +34,14 @@ jobs:
           git config --global user.name 'Schedule Bot'
           git config --global user.email 'kakadoman0906@gmail.com'
           
-          # 1. Force add the files (even if they are in .gitignore, though they shouldn't be)
-          git add schedule.json info.json
+          # Add EVERYTHING (main files and all subfolders in saved_schedules)
+          git add -A
           
-          # 2. Debug: List files to see if they actually exist on the runner disk
-          ls -lh *.json
-          
-          # 3. Check if there are changes
+          # Check if there are changes
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update schedule and info $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "Archive schedule for $(date +'%Y-%m-%d %H:%M')"
             git push
           else
-            echo "No changes detected in JSON files. Skipping commit."
+            echo "No changes detected. Skipping commit."
           fi
           
-      - name: Debug - View generated files
-        run: |
-          echo "--- Contents of schedule.json ---"
-          cat schedule.json || echo "schedule.json not found"
-          echo "--- Contents of info.json ---"
-          cat info.json || echo "info.json not found"
