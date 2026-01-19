@@ -209,51 +209,59 @@ def parse_cell(cell_content):
     
     return None
 
-
-def return_schedule_as_json():
-    timetable_pdf_link = timetable_fetcher.fetch_timetable()
-    schedule = extract_schedule(pdf_path=io.BytesIO(requests.get(timetable_pdf_link).content))
-    schedule_path = os.path.join(base_path, "schedule.json")
-
-    with open(schedule_path, "w") as file:
-        json.dump(schedule, file, ensure_ascii=False, indent=2)
-
-def return_info_as_json():
-    timetable_pdf_link = timetable_fetcher.fetch_timetable()
-    match = re.search(r'(\d{1,2})\.(\d{1,2})\.?\-?(\d{4})', timetable_pdf_link)
+def extract_date_from_link(pdf_link):
+    match = re.search(r'(\d{1,2})\.(\d{1,2})\.?\-?(\d{4})', pdf_link)
     
     if match:
         day = match.group(1).zfill(2)
         month = match.group(2).zfill(2)
         year = match.group(3)
-        link_date = f"{day}.{month}.{year}."
+        return f"{day}.{month}.{year}"
     else:
-        link_date = datetime.datetime.now().strftime("%d.%m.%Y.")
+        return datetime.datetime.now().strftime("%d.%m.%Y.")
 
+def return_schedule_as_json(pdf_link):
+    schedule = extract_schedule(pdf_path=io.BytesIO(requests.get(pdf_link).content))
+    return schedule
+
+def return_info_as_json(pdf_link):
     # Extract shift from URL (A for morning, B for afternoon)
-    shift_match = re.search(r'GIM-EK-([AB])', timetable_pdf_link)
+    shift_match = re.search(r'GIM-EK-([AB])', pdf_link)
     shift = "morning" if shift_match and shift_match.group(1) == "A" else "afternoon"
 
     info = {
-        "timetable_link": timetable_pdf_link,
-        "link_date": link_date,
+        "timetable_link": pdf_link,
+        "link_date": extract_date_from_link(pdf_link),
         "shift": shift,
         "class_teacher": SUBJECT_MAP.get("SK", ["Unknown", "Unknown"])[0]
     }
 
-    with open("info.json", "w") as file:
+    return info
+
+def save_whole_schedule_data(pdf_link, save_path):
+    data_directory = os.path.join(save_path, extract_date_from_link(pdf_link))
+    data_directory.mkdir(parents=True, exist_ok=True)
+
+    pdf_data_directory_path = os.path.join(data_directory, "schedule.pdf")
+    with open(pdf_data_directory_path, "wb") as file:
+        file.write(requests.get(pdf_link).content)
+    
+    json_data_directory_path = os.path.join(data_directory, "schedule.json")
+    schedule = return_schedule_as_json(pdf_link)
+    with open(json_data_directory_path, "w") as file:
+        json.dump(schedule, file, ensure_ascii=False, indent=2)
+
+    info_data_directory_path = os.path.join(data_directory, "info.json")
+    info = return_info_as_json(pdf_link)
+    with open(info_data_directory_path, "w") as file:
         json.dump(info, file, ensure_ascii=False, indent=2)
 
-
-
 if __name__ == "__main__":
-    return_schedule_as_json()
-    return_info_as_json()
+    pdf_link = timetable_fetcher.fetch_timetable()
 
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    saved_schedules_path = os.path.join(base_path, "saved_schedules")
 
-
-
-
-
+    save_whole_schedule_data(pdf_link, saved_schedules_path)
 
 
