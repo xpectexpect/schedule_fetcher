@@ -258,13 +258,14 @@ def save_whole_schedule_data(pdf_link, save_path):
         json.dump(info, file, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    pdf_link = timetable_fetcher.fetch_timetable(schedule_prefference = "old")
+    pdf_link = timetable_fetcher.fetch_timetable()
 
     base_path = os.path.dirname(os.path.abspath(__file__))
     saved_schedules_path = pathlib.Path(os.path.join(base_path, "saved_schedules"))
     saved_schedules_path.mkdir(parents=True, exist_ok=True)
 
     save_whole_schedule_data(pdf_link, saved_schedules_path)
+
 
 
 
